@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26DC1C17241088170042A1DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DC1C16241088170042A1DF /* AppDelegate.swift */; };
+		26DC1C19241088170042A1DF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DC1C18241088170042A1DF /* SceneDelegate.swift */; };
+		26DC1C1B241088170042A1DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DC1C1A241088170042A1DF /* ViewController.swift */; };
+		26DC1C1E241088170042A1DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26DC1C1C241088170042A1DF /* Main.storyboard */; };
+		26DC1C202410881C0042A1DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26DC1C1F2410881C0042A1DF /* Assets.xcassets */; };
+		26DC1C232410881C0042A1DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26DC1C212410881C0042A1DF /* LaunchScreen.storyboard */; };
+		26DC1C2E2410881C0042A1DF /* TestUSBReadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DC1C2D2410881C0042A1DF /* TestUSBReadTests.swift */; };
+		26DC1C392410881C0042A1DF /* TestUSBReadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DC1C382410881C0042A1DF /* TestUSBReadUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		26DC1C2A2410881C0042A1DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26DC1C0B241088170042A1DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26DC1C12241088170042A1DF;
+			remoteInfo = TestUSBRead;
+		};
+		26DC1C352410881C0042A1DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26DC1C0B241088170042A1DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26DC1C12241088170042A1DF;
+			remoteInfo = TestUSBRead;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		26DC1C13241088170042A1DF /* TestUSBRead.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestUSBRead.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26DC1C16241088170042A1DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		26DC1C18241088170042A1DF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		26DC1C1A241088170042A1DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		26DC1C1D241088170042A1DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		26DC1C1F2410881C0042A1DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		26DC1C222410881C0042A1DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		26DC1C242410881C0042A1DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26DC1C292410881C0042A1DF /* TestUSBReadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestUSBReadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		26DC1C2D2410881C0042A1DF /* TestUSBReadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestUSBReadTests.swift; sourceTree = "<group>"; };
+		26DC1C2F2410881C0042A1DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26DC1C342410881C0042A1DF /* TestUSBReadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestUSBReadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		26DC1C382410881C0042A1DF /* TestUSBReadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestUSBReadUITests.swift; sourceTree = "<group>"; };
+		26DC1C3A2410881C0042A1DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26DC1C10241088170042A1DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26DC1C262410881C0042A1DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26DC1C312410881C0042A1DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26DC1C0A241088170042A1DF = {
+			isa = PBXGroup;
+			children = (
+				26DC1C15241088170042A1DF /* TestUSBRead */,
+				26DC1C2C2410881C0042A1DF /* TestUSBReadTests */,
+				26DC1C372410881C0042A1DF /* TestUSBReadUITests */,
+				26DC1C14241088170042A1DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		26DC1C14241088170042A1DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26DC1C13241088170042A1DF /* TestUSBRead.app */,
+				26DC1C292410881C0042A1DF /* TestUSBReadTests.xctest */,
+				26DC1C342410881C0042A1DF /* TestUSBReadUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26DC1C15241088170042A1DF /* TestUSBRead */ = {
+			isa = PBXGroup;
+			children = (
+				26DC1C16241088170042A1DF /* AppDelegate.swift */,
+				26DC1C18241088170042A1DF /* SceneDelegate.swift */,
+				26DC1C1A241088170042A1DF /* ViewController.swift */,
+				26DC1C1C241088170042A1DF /* Main.storyboard */,
+				26DC1C1F2410881C0042A1DF /* Assets.xcassets */,
+				26DC1C212410881C0042A1DF /* LaunchScreen.storyboard */,
+				26DC1C242410881C0042A1DF /* Info.plist */,
+			);
+			path = TestUSBRead;
+			sourceTree = "<group>";
+		};
+		26DC1C2C2410881C0042A1DF /* TestUSBReadTests */ = {
+			isa = PBXGroup;
+			children = (
+				26DC1C2D2410881C0042A1DF /* TestUSBReadTests.swift */,
+				26DC1C2F2410881C0042A1DF /* Info.plist */,
+			);
+			path = TestUSBReadTests;
+			sourceTree = "<group>";
+		};
+		26DC1C372410881C0042A1DF /* TestUSBReadUITests */ = {
+			isa = PBXGroup;
+			children = (
+				26DC1C382410881C0042A1DF /* TestUSBReadUITests.swift */,
+				26DC1C3A2410881C0042A1DF /* Info.plist */,
+			);
+			path = TestUSBReadUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26DC1C12241088170042A1DF /* TestUSBRead */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26DC1C3D2410881C0042A1DF /* Build configuration list for PBXNativeTarget "TestUSBRead" */;
+			buildPhases = (
+				26DC1C0F241088170042A1DF /* Sources */,
+				26DC1C10241088170042A1DF /* Frameworks */,
+				26DC1C11241088170042A1DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestUSBRead;
+			productName = TestUSBRead;
+			productReference = 26DC1C13241088170042A1DF /* TestUSBRead.app */;
+			productType = "com.apple.product-type.application";
+		};
+		26DC1C282410881C0042A1DF /* TestUSBReadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26DC1C402410881C0042A1DF /* Build configuration list for PBXNativeTarget "TestUSBReadTests" */;
+			buildPhases = (
+				26DC1C252410881C0042A1DF /* Sources */,
+				26DC1C262410881C0042A1DF /* Frameworks */,
+				26DC1C272410881C0042A1DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26DC1C2B2410881C0042A1DF /* PBXTargetDependency */,
+			);
+			name = TestUSBReadTests;
+			productName = TestUSBReadTests;
+			productReference = 26DC1C292410881C0042A1DF /* TestUSBReadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		26DC1C332410881C0042A1DF /* TestUSBReadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26DC1C432410881C0042A1DF /* Build configuration list for PBXNativeTarget "TestUSBReadUITests" */;
+			buildPhases = (
+				26DC1C302410881C0042A1DF /* Sources */,
+				26DC1C312410881C0042A1DF /* Frameworks */,
+				26DC1C322410881C0042A1DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26DC1C362410881C0042A1DF /* PBXTargetDependency */,
+			);
+			name = TestUSBReadUITests;
+			productName = TestUSBReadUITests;
+			productReference = 26DC1C342410881C0042A1DF /* TestUSBReadUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26DC1C0B241088170042A1DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = KK;
+				TargetAttributes = {
+					26DC1C12241088170042A1DF = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					26DC1C282410881C0042A1DF = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 26DC1C12241088170042A1DF;
+					};
+					26DC1C332410881C0042A1DF = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 26DC1C12241088170042A1DF;
+					};
+				};
+			};
+			buildConfigurationList = 26DC1C0E241088170042A1DF /* Build configuration list for PBXProject "TestUSBRead" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 26DC1C0A241088170042A1DF;
+			productRefGroup = 26DC1C14241088170042A1DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26DC1C12241088170042A1DF /* TestUSBRead */,
+				26DC1C282410881C0042A1DF /* TestUSBReadTests */,
+				26DC1C332410881C0042A1DF /* TestUSBReadUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26DC1C11241088170042A1DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26DC1C232410881C0042A1DF /* LaunchScreen.storyboard in Resources */,
+				26DC1C202410881C0042A1DF /* Assets.xcassets in Resources */,
+				26DC1C1E241088170042A1DF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26DC1C272410881C0042A1DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26DC1C322410881C0042A1DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26DC1C0F241088170042A1DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26DC1C1B241088170042A1DF /* ViewController.swift in Sources */,
+				26DC1C17241088170042A1DF /* AppDelegate.swift in Sources */,
+				26DC1C19241088170042A1DF /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26DC1C252410881C0042A1DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26DC1C2E2410881C0042A1DF /* TestUSBReadTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26DC1C302410881C0042A1DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26DC1C392410881C0042A1DF /* TestUSBReadUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		26DC1C2B2410881C0042A1DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26DC1C12241088170042A1DF /* TestUSBRead */;
+			targetProxy = 26DC1C2A2410881C0042A1DF /* PBXContainerItemProxy */;
+		};
+		26DC1C362410881C0042A1DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26DC1C12241088170042A1DF /* TestUSBRead */;
+			targetProxy = 26DC1C352410881C0042A1DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		26DC1C1C241088170042A1DF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26DC1C1D241088170042A1DF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		26DC1C212410881C0042A1DF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26DC1C222410881C0042A1DF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		26DC1C3B2410881C0042A1DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		26DC1C3C2410881C0042A1DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26DC1C3E2410881C0042A1DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TestUSBRead/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kk.TestUSBRead;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		26DC1C3F2410881C0042A1DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TestUSBRead/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kk.TestUSBRead;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		26DC1C412410881C0042A1DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TestUSBReadTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kk.TestUSBReadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestUSBRead.app/TestUSBRead";
+			};
+			name = Debug;
+		};
+		26DC1C422410881C0042A1DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TestUSBReadTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kk.TestUSBReadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestUSBRead.app/TestUSBRead";
+			};
+			name = Release;
+		};
+		26DC1C442410881C0042A1DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TestUSBReadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kk.TestUSBReadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TestUSBRead;
+			};
+			name = Debug;
+		};
+		26DC1C452410881C0042A1DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TestUSBReadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kk.TestUSBReadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TestUSBRead;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26DC1C0E241088170042A1DF /* Build configuration list for PBXProject "TestUSBRead" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26DC1C3B2410881C0042A1DF /* Debug */,
+				26DC1C3C2410881C0042A1DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26DC1C3D2410881C0042A1DF /* Build configuration list for PBXNativeTarget "TestUSBRead" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26DC1C3E2410881C0042A1DF /* Debug */,
+				26DC1C3F2410881C0042A1DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26DC1C402410881C0042A1DF /* Build configuration list for PBXNativeTarget "TestUSBReadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26DC1C412410881C0042A1DF /* Debug */,
+				26DC1C422410881C0042A1DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26DC1C432410881C0042A1DF /* Build configuration list for PBXNativeTarget "TestUSBReadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26DC1C442410881C0042A1DF /* Debug */,
+				26DC1C452410881C0042A1DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 26DC1C0B241088170042A1DF /* Project object */;
+}
